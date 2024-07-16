@@ -35,6 +35,11 @@ Note: All CSVs will be saved to the `CSVs` folder.  Although most CSVs won't be 
 ### A quick note about Git management
 This project originally started with 5 members and all our code was housed in a repo created by one of them.  That fifth member left our group and we were forced for fork our git repo to ensure the safety of our work.  However, it appears that because the git repo was forked, permissions still remained with the original owner of the repo and we were not able to push our code to even the forked repo.  In order to ensure the integrity of our code as well as avoid any permission issues when pushing our code, we have therefore decided to create a completely new repo under one of our current group members account and that is the repo where this project lives right now.  The links to code below reflect the most current repo (as of 2024-07-16).
 
+For commit history and branch management, below are the links to all the aforementioned repos:  
+
+Original repo: https://github.com/Project2andTeam9/Team_9  
+Forked repo: https://github.com/AlishaOutridge/Team_9 
+
 ## Instructions
 
 ### You must create the Data Sets & then run the ML Opitmization notebook
@@ -49,8 +54,10 @@ The X DataSet comprises tracks from top artists provided by ChartMetrics. This d
 
 File Name: Final - Alisha - Nico - Consolidate And CleanUp Data For ML-wVisuals.ipynb
 
-Go to this url to open https://github.com/AlishaOutridge/Team_9/blob/4ae891ab7a3eea87233378ea56aa9e6cdbce868a/Final%20-%20Alisha%20-%20Nico%20-%20Consolidate%20And%20CleanUp%20Data%20For%20ML-wVisuals.ipynb
+Go to this url to open:  
+https://github.com/nicostatics/hit-or-not/blob/main/Final%20-%20Alisha%20-%20Nico%20-%20Consolidate%20And%20CleanUp%20Data%20For%20ML-wVisuals.ipynb
 
+Note: This contains some of our initial EDA to analyze distribution of song length and hit popularity, among other things.  This helped us ascertain what factors to consider later on.
 
 ### Step 2 - This file creates the Y DataSet
 
@@ -60,7 +67,8 @@ The Y DataSet includes new releases sourced from ChartMetrics that were less kno
 
 File Name: Final - Alisha - Danny Group 9 - New Releases To Predict If It Is Hit From Spotify.ipynb
 
-Go to this url to open  https://github.com/AlishaOutridge/Team_9/blob/4ae891ab7a3eea87233378ea56aa9e6cdbce868a/Final%20-%20Alisha%20-%20Danny%20Group%209%20-%20New%20Releases%20To%20Predict%20If%20It%20Is%20Hit%20From%20Spotify.ipynb
+Go to this url to open:  
+https://github.com/nicostatics/hit-or-not/blob/main/Final%20-%20Alisha%20-%20Danny%20Group%209%20-%20New%20Releases%20To%20Predict%20If%20It%20Is%20Hit%20From%20Spotify.ipynb
 
 Note: This contains some of our initial EDA to analyze newer tracks to determine what being a Hit means by looking at a variance of High Hit probablity vs Low Hit Probability based on editorial inclusion, chart & playlist mentions.
 
@@ -88,7 +96,8 @@ After thorough data analysis, we standardized the dataset to include fields that
 
 Final - Alisha - ML Model Train And Optimization.ipynb
 
-Go to this url to open https://github.com/AlishaOutridge/Team_9/blob/4ae891ab7a3eea87233378ea56aa9e6cdbce868a/Final%20-%20Alisha%20-%20ML%20Model%20Train%20And%20Optimization.ipynb
+Go to this url to open:  
+https://github.com/nicostatics/hit-or-not/blob/main/Final%20-%20Alisha%20-%20ML%20Model%20Train%20And%20Optimization.ipynb
 
 ## Model Development and Evaluation
 * Model: Utilized RandomForestClassifier due to its effectiveness in managing overfitting and its robustness with large datasets.
